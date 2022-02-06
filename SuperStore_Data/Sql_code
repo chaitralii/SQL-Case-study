@@ -1,0 +1,29 @@
+use sql_datasci;
+Select * From dataset1;
+
+/* LIMIT 
+/*select distinct passanger from dataset1; */
+
+/*select* from dataset1
+WHere destination = 'Home';*/
+
+/*select * from dataset1
+order by coupon;*/
+
+/*select occupation 
+from dataset1 
+group by occupation;*/
+
+
+/*select weather,
+count(temperature) as 'count_temp'
+from dataset1
+group by weather;*/
+
+/*select weather,
+count(Distinct temperature) as 'dist_count_temp'
+from dataset1
+group by weather;*/
+
+
+
